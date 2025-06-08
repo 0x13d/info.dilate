@@ -1,0 +1,29 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor & IDE files
+*.swp
+*.swo
+*~
+*.bak
+.vscode/
+.idea/
+
+# Netlify (if used for deployment)
+.netlify/
+
+# Temporary files from other tools
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
