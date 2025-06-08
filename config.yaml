@@ -1,4 +1,32 @@
-baseURL: "http://hugo-quickstart-template.netlify.com"
-languageCode: "en-us"
-title: "Netlify + Hugo Quickstart"
-theme: "netlify-basic"
+baseURL: https://dilate.info
+languageCode: en-us
+theme: "photophobia"
+
+DefaultContentLanguage: en
+SectionPagesMenu: main
+googleAnalytics: ""
+
+languages:
+  en:
+    title: "Dilate: Vision Redefined"
+    weight: 1
+    contentDir: content/en
+
+sitemap:
+  changefreq: daily
+  priority: 0.5
+  filename: sitemap.xml
+
+services:
+  pagination:
+    paginate: 3
+
+params:
+  favicon: null
+  site_logo: null
+  description: Pellentesque commodo dolor leo.
+  recent_posts_number: 10
+
+markup:
+  highlight:
+    style: nord
