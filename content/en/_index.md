@@ -6,4 +6,4 @@ draft: false
 
 Dilate
 
-Let's see if this works!
+An experimental and just for fun app designed to help you with eye exercises.
